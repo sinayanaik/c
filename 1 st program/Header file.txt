@@ -1,0 +1,27 @@
+
+Header Files have file extensions : .h
+
+they contains
+   C function declarations
+     macro definitions
+
+header files can be included in program by 
+
+C preprocessing directive : #include
+
+Including a header file = copying the content of the header file
+
+
+#include syntax:
+
+#include <file>
+  used for system header files 
+  It searches for a file named 'file' in a standard list of system directories
+
+#include "file"
+  used for header files of own program
+  It searches for a file named 'file' in the directory containing the current file
+
+
+
+
