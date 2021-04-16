@@ -1,0 +1,25 @@
+There is a quote
+   "C is the language your language is written on."
+
+
+It is used as the reference language for computer science 
+courses all over the world
+
+Today, C is widely used in embedded devices,
+ and it powers most of the Internet servers,
+    which are built using Linux. 
+The Linux kernel is built using C, 
+  and this also means that C powers the core of all Android devices. 
+We can say that C code runs a good portion of the entire world.
+
+
+C is strongly-typed language
+ you have to assign memory to variable on your own.
+Failing to do so generates error.
+
+Many people think this makes C harder than most of the language 
+like Python.
+But in my opinion If you are new to Computer Science you should 
+know basic concepts like memory allocations, Python gives you 
+privilage to not learn this but in the long run these things are 
+essential.

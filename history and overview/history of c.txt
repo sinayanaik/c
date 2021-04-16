@@ -1,0 +1,37 @@
+﻿C is a structured programming language developed by Dennis Ritchie in 1973 at Bell Laboratories.
+
+
+Dennis Ritchie
+born September 9, 1941
+dead October 2011,
+bachelor’s degree (1963) in physics
+doctorate (1968) in mathematics from Harvard University.
+1967 - joined Bell Labs
+
+
+C language was developed to write the UNIX operating system, hence it is strongly associated with UNIX,
+
+
+UNIX
+UNIX, multiuser computer operating system. UNIX is widely used for Internet servers, workstations, and mainframe computers.
+In 1969 a team led by computer scientists Ken Thompson and Dennis Ritchie created the first version of UNIX on a PDP-7 minicomputer
+Linux is a Unix-Like Operating System(note: unix like not unix)
+macOS adopted the Unix kernel
+
+
+C language has evolved from three different structured language ALGOL, BCPL and B Language
+
+
+Structured programming
+Structured programming is a subset of procedural programming.
+   It is also known as modular programming
+   The structured programming language allows a programmer to code a program by dividing the whole program into     
+   smaller units or modules.
+
+
+In 1988, the language was formalised by American National Standard Institute(ANSI). In 1990, a version of C language was approved by the International Standard Organisation(ISO) and that version of C is also referred to as C89.
+Programs written in C language takes very less time to execute and almost executes at the speed of assembly language instructions.
+
+
+Latest Version of C
+The current latest version of C language is C11, which was introduced in 2011. It is supported by all the standard C language compilers.
