@@ -1,0 +1,67 @@
+﻿continue statement
+ On encountering continue, execution leave the current cycle of loop(Iteration), and starts with the next cycle.
+
+
+Without continue statement a loop:
+
+
+#include <stdio.h>
+int main()
+{
+   for(int i=1;i<=10;i++)
+   {
+       printf("%d\n",i);
+   }
+   printf("Loop ended\n");
+}
+	
+
+It will give output
+PS C:\Users\sinay\Desktop\git\c\5. Jumping out of loop> ./break
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Loop ended
+	
+
+By using continue; statement
+
+
+#include <stdio.h>
+int main()
+{
+    for(int i=1;i<=10;i++)
+    {
+        
+        if(i==5){
+            continue;
+        }
+        
+        printf("%d\n",i);
+    }
+    printf("Loop ended\n");
+}
+
+
+this would give output
+PS C:\Users\sinay\Desktop\git\c\5. Jumping out of loop> .\continue.exe
+1
+2
+3
+4
+6
+7
+8
+9
+10
+Loop ended
+	
+
+Here the loop where 5 was to be printed was skipped because of continue; statement
