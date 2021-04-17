@@ -1,0 +1,21 @@
+
+Informally we can say Identifiers = variables 
+
+In C language identifiers are the names given to 
+      variables, 
+      constants, 
+      functions, 
+      user-defined data.
+
+RULES:
+1.An Identifier can only have alphanumeric characters(a-z , A-Z , 0-9) 
+        and underscore(_)
+2.The first character of an identifier can only contain 
+        alphabet(a-z, A-Z) or underscore (_)
+3.Identifiers are also case sensitive in C. 
+ For example, var and Var are two different identifiers in C
+4. Keywords are not allowed to be used as Identifiers.
+5.No special characters, 
+  such as a semicolon, period, whitespaces, slash, or comma
+  are permitted to be used in or as an Identifier.
+  (except underscore(_)).

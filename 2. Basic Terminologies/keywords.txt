@@ -1,0 +1,28 @@
+C Keywords:
+Keywords are reserved words that have special meaning in the C language.
+The meaning of C language keywords has already been described in the C compiler. 
+
+These meanings cannot be changed. 
+   Thus, keywords cannot be used as Variables names because
+ that would try to change the existing meaning of the keyword, 
+which is not allowed. 
+
+There is a total of 32 keywords in the C language.
+
+auto	double	int	struct
+break	else	long	switch
+case	enum	register	typedef
+const	extern	return	union
+char	float	short	unsigned
+continue	for	signed	volatile
+default	goto	sizeof	void
+do	if	static	while
+
+Rules:
+
+1. A keyword name can not be used as a variable name.
+
+2. Keywords must be written in lower case.
+
+3. It specifies the type/kind of entity.
+ 

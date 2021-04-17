@@ -1,0 +1,77 @@
+Data types specify
+   how we enter data into our programs 
+   and what type of data we enter
+
+Data type determines the type of data a variable will hold.
+
+C language has some predefined set of data types
+ to handle various kinds of data that we can use in our program.
+
+C language supports 2 different type of data types:
+
+Primary data types:
+These are fundamental data types in C
+ namely integer(int), floating point(float), character(char) and void.
+
+Derived data types:
+Derived data types are nothing but primary datatypes but
+  a little twisted or grouped together 
+like array, stucture, union and pointers.
+
+
+1.Integer type
+
+Integers are used to store whole numbers.
+
+TYPE                             SIZE                                              VALUE RANGE
+
+int	                    2 or 4 bytes	                            -32,768 to 32,767 or 
+                                                                     -2,147,483,648 to 2,147,483,647
+
+unsigned int 	            2 or 4 bytes	                                  0 to 65,535 or
+                                                                                  0 to 4,294,967,295
+
+short	                      2 bytes	                                    -32,768 to 32,767
+
+unsigned short                2 bytes                                             0 to 65,535
+
+long			      8 bytes or 4bytes                -9223372036854775808 to 9223372036854775807
+
+unsigned long	              8 bytes	                                          0 to 18446744073709551615
+
+
+2.Character type
+
+Character types are used to store characters value. 
+
+CHARACTER maybe alphabets(a,b,c,d,e.....A,B,C,D,.....),Numbers(1,2,3,4.....),special characters(!,@,#,$...)
+but the important thing is they should be enclosed within single quotation mark ('')
+like :  'A','#','1'
+
+characters are only allowed to be single digit long 
+  correct: 'A'
+  incorrect: 'ABC' because there are three characters inside the quotation mark
+
+
+Type	       Storage size	        Value range
+char	        1 byte	              -128 to 127 or
+                                         0 to 255
+
+unsigned char	1 byte	                 0 to 255
+
+signed char	1 byte	              -128 to 127
+
+3.Floating point type
+
+Floating types are used to store real numbers(Both fractional and whole).
+
+Type	            Storage size	  Value range	       Precision
+
+float             	4 byte	    1.2E-38 to 3.4E+38	           6 decimal places
+double	                8 byte	   2.3E-308 to 1.7E+308	          15 decimal places
+long double	      10 byte	  3.4E-4932 to 1.1E+4932	  19 decimal places
+
+                             (NOTE:  1.2E-38 to 3.4E+38	= 1.2 * 10^-38 to 3.4 * 10^+38 )
+
+
+
