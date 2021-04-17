@@ -1,0 +1,17 @@
+if condition statement into a short and simple operator
+
+general syntax: 
+
+expression 1 ? expression 2: expression 3
+
+The question mark "?" in the syntax represents the if part.
+
+The first expression (expression 1) generally returns either true or false,
+  based on which it is decided whether (expression 2) will be executed 
+  or (expression 3)
+
+If (expression 1) returns true
+  then the expression on the left side of " : " i.e (expression 2) is executed.
+
+If (expression 1) returns false 
+  then the expression on the right side of " : " i.e (expression 3) is executed.

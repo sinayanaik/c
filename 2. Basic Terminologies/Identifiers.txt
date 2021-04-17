@@ -19,3 +19,6 @@ RULES:
   such as a semicolon, period, whitespaces, slash, or comma
   are permitted to be used in or as an Identifier.
   (except underscore(_)).
+
+
+NOTE: An identifier can be a variable, but not all indentifiers are variables.

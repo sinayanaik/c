@@ -1,0 +1,47 @@
+Bitwise operators
+Bitwise operators perform manipulations of data at bit level.
+ These operators also perform shifting of bits from right to left. 
+ 
+ IMPORTANT: Bitwise operators are not applied to float or double
+
+
+Operator	   Description
+
+&       	   Bitwise AND
+|	           Bitwise OR
+^	       Bitwise exclusive OR
+<<	           left shift
+>>	           right shift
+~                  bitwise NOT  
+
+
+1.Bitwise AND
+  The & (bitwise AND)  takes two numbers as operands 
+   and does AND on every bit of two numbers. 
+   The result of AND is 1 only if both bits are 1.
+
+2. Bitwise OR
+   The | (bitwise OR) takes two numbers as operands 
+   and does OR on every bit of two numbers. 
+   The result of OR is 1 if any of the two bits is 1.
+
+3. Bitwise exclusive OR(bitwise XOR)
+   The ^ (bitwise XOR) takes two numbers as operands 
+   and does XOR on every bit of two numbers. 
+   The result of XOR is 1 if the two bits are different.
+
+4.left shift
+  The << (left shift)  takes two numbers, 
+  left shifts the bits of the first operand, the 
+      second operand decides the number of places to shift.
+
+5. right shift
+  The >> (right shift) takes two numbers,
+   right shifts the bits of the first operand, 
+     the second operand decides the number of places to shift.
+
+6.bitwise NOT
+  The ~ (bitwise NOT) 
+  takes one number and inverts all bits of it
+  
+   

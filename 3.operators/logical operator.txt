@@ -1,0 +1,8 @@
+Logical operators
+C language supports following 3 logical operators. Suppose a = 5 and b = 9,
+
+Operator	 Description	                Example
+
+&&	         Logical AND	           (a && b) is false
+||	         Logical OR	           (a || b) is true
+!	         Logical NOT	               (!a) is false

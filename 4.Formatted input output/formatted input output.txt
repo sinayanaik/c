@@ -1,0 +1,34 @@
+We can also limit the number of digits or characters that can be input or output,
+ by adding a number with the format string specifier, like "%1d" or "%3s", 
+
+the first one means a single numeric digit and the second one means 3 characters,
+
+hence if you try to input 56, while scanf() has "%1d", 
+        it will take only 5 as input.
+
+But in case of output(printf())
+
+if
+  int x = 6;
+
+  printf("%3d",x); 
+  will print:  6
+  Two blank spaces before 6
+  because in format specifier it has been specified 3 digits but there are not 
+  enough digits so it will fill the remaining with blank spaces
+
+
+In case of Floating Point numbers 
+   we can also specify how many digit we want to print after decimal point
+
+ float x = 4.53235;
+ 
+ printf("%f.4',x));
+ will print: 4.5323
+
+ But you can't use %f.n with scanf in Floating point numbers
+ 
+
+  
+  
+ 
