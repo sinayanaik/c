@@ -1,0 +1,29 @@
+Whenever a variable is defined in C language,
+ a memory location is assigned for it,
+     in which it's value will be stored.
+ We can easily check this memory address, using the & symbol.
+
+ Let us assume that system has allocated memory location 80F for a variable a.
+
+int a = 10;
+We can access the value 10 either by using the
+   variable name a or by using its address 80F.
+
+
+Since the memory addresses are also just numbers, 
+     they can also be assigned to some other variable.
+The variables which are used to hold memory addresses are called Pointer variables.  
+
+
+Declaration of C Pointer variable
+
+datatype *pointer_name;
+
+The data type of the pointer 
+ and the variable to which the pointer variable is pointing
+ must be the same.
+
+
+int a = 10;
+int *ptr;       //pointer declaration
+ptr = &a;       //pointer initialization 

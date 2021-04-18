@@ -1,0 +1,10 @@
+Declare an array arr,
+
+int arr[5] = { 1, 2, 3, 4, 5 };
+
+arr has two purpose -
+
+It is the name of the array
+It acts as a pointer pointing towards the first element in the array.
+
+arr is equal to &arr[0] by default

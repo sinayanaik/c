@@ -1,0 +1,16 @@
+//with pointers
+char *name[3] = { 
+    "Adam",
+    "chris",
+    "Deniel"
+};
+
+//without pointer
+char name[3][20] = { 
+    "Adam",
+    "chris",
+    "Deniel"
+};
+
+In the second approach memory wastage is more,
+ hence it is preferred to use pointer in such cases.

@@ -1,0 +1,36 @@
+string.h library
+
+Method	Description
+strcat()	It is used to concatenate(combine) two strings
+strlen()	It is used to show the length of a string
+strrev()	It is used to show the reverse of a string
+strcpy()	Copies one string into another
+strcmp()	It is used to compare two string
+
+
+strcat()
+strcat(str1, str2);
+
+strlen()
+   will return the length of the string passed
+ syntax: int length  = strlen(string);
+
+strrev()
+ It is used to reverse the given string expression.
+ strrev(string);
+
+strcpy()
+  The strcpy() function copies the string pointed by source 
+  (including the null character) to the destination.
+  
+   strcpy(destination,source);
+
+  
+
+strcmp()
+  The strcmp() compares two strings character by character. 
+   If the strings are 
+                equal, the function returns 0.
+            not equal, the function returns non-zero.
+                   printf("strcmp(\"A\",\"B\") = %d\n",strcmp("A","B")); //-1 lower to higher
+                   printf("strcmp(\"B\",\"A\") = %d\n",strcmp("B","A")); // 1 higher to lower

@@ -1,0 +1,12 @@
+Thus, when one pointer variable stores
+   the address of another pointer variable,
+ it is known as Pointer to Pointer variable or Double Pointer.
+
+ Syntax:
+
+ int **ptr;
+
+ If we want to store the address of this (double pointer) variable ptr,
+   then the syntax would become:
+
+int ***p2

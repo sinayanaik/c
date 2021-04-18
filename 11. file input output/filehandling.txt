@@ -1,0 +1,55 @@
+FILE *fp;
+
+
+
+
+Function                                                   	description
+
+fopen()                                     	create a new file or open a existing file
+fclose()                                                	closes a file
+getc()                                      	reads a character from a file
+putc()                                      	writes a character to a file
+fscanf()                                       	reads a set of data from a file
+fprintf()	                                    writes a set of data to a file
+getw()                                      	reads a integer from a file
+putw()	                                        writes a integer to a file
+fseek()	                                        set the position to desire point
+ftell()                                    	gives current position in the file
+rewind()	                                set the position to the begining point
+
+
+ fopen()
+  used to create a new file or to open an existing file.
+
+  *fp = FILE *fopen(const char *filename, const char *mode);
+
+  *fp is the FILE pointer (FILE *fp), which will hold the reference to the opened(or created) file.
+
+  filename is the name of the file to be opened and
+     mode specifies the purpose of opening the file.
+
+mode        	description
+r	        opens a text file in reading mode
+w	        opens or create a text file in writing mode.
+a	        opens a text file in append mode
+r+      	opens a text file in both reading and writing mode
+w+      	opens a text file in both reading and writing mode
+a+	        opens a text file in both reading and writing mode
+rb      	opens a binary file in reading mode
+wb	        opens or create a binary file in writing mode
+ab      	opens a binary file in append mode
+rb+	        opens a binary file in both reading and writing mode
+wb+	        opens a binary file in both reading and writing mode
+ab+	        opens a binary file in both reading and writing mode
+
+fclose()
+used to close an already opened file
+
+int fclose( FILE *fp);
+
+Here fclose() function closes the file and returns zero on success, or EOF if there is an error in closing the file. 
+This EOF is a constant defined in the header file stdio.h.
+
+
+
+

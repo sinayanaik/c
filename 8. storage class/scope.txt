@@ -1,0 +1,72 @@
+scope
+ i.e where the value of the variable would be available inside a program
+
+default initial value 
+   i.e if we do not explicitly initialize that variable, 
+
+lifetime of that variable 
+   i.e for how long will that variable exist.
+ 
+1.Automatic variables: 
+  auto
+  Automatic variables can also be called local variables 
+  because they are local to a function.
+
+Scope: Variable defined with auto storage class are
+       local to the function block inside which they are defined.
+
+Default Initial Value: Any random value i.e garbage value.
+
+Lifetime: Till the end of the function/method block where the variable is defined.
+
+ #include<stdio.h>
+    
+void main()
+{
+    int detail;
+    // or 
+    auto int details;    //Both are same
+}
+
+2.External or Global variable
+
+Scope: Global i.e everywhere in the program.
+ These variables are not bound by any function,
+ they are available everywhere.
+
+Default initial value: 0(zero).
+
+Lifetime: Till the program doesn't finish its execution,
+           you can access global variables.
+ their values can be changed by any function in the program
+ The extern declaration does not allocate storage for variables.
+
+
+
+3.Static variables
+
+Scope: Local to the block in which the variable is defined
+
+Default initial value: 0(Zero).
+
+Lifetime: Till the whole program doesn't finish its execution.
+
+nd remains into existence till the end of the program
+A static variable tells the compiler to persist/save the variable 
+until the end of program.
+    Instead of creating and destroying a variable every time when it comes into and goes out of scope,
+  static variable is initialized only once .
+
+
+4.Register variable
+Scope: Local to the function in which it is declared.
+
+Default initial value: Any random value i.e garbage value
+
+Lifetime: Till the end of function/method block,
+          in which the variable is defined.  
+
+  Register variables inform the compiler to store the
+      variable in CPU register instead of memory.   
+
+      register int number;     
