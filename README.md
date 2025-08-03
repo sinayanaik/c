@@ -21,31 +21,26 @@ A comprehensive guide to C programming language covering fundamentals, advanced 
 - [Continue Statement](./docs/03-control-flow/02-continue-statement.md)
 
 ### 4. [Arrays](./docs/04-arrays/)
-- [Array Basics](./docs/04-arrays/01-array-basics.md)
-- [Arrays as Pointers](./docs/04-arrays/02-arrays-as-pointers.md)
-- [Array of Pointers](./docs/04-arrays/03-array-of-pointers.md)
+- [Array Basics](./docs/04-arrays/01-array-basics.md) - Complete array operations and examples
+- [Arrays as Pointers](./docs/04-arrays/02-arrays-as-pointers.md) - Array-pointer relationship
 
 ### 5. [Strings](./docs/05-strings/)
-- [String Handling](./docs/05-strings/01-string-handling.md)
+- [String Handling](./docs/05-strings/01-string-handling.md) - Comprehensive string operations
 
 ### 6. [Structures](./docs/06-structures/)
-- [Structure Basics](./docs/06-structures/01-structure-basics.md)
+- [Structure Basics](./docs/06-structures/01-structure-basics.md) - Complete structure guide with examples
 
 ### 7. [Pointers](./docs/07-pointers/)
-- [Pointer Basics](./docs/07-pointers/01-pointer-basics.md)
-- [Double Pointers](./docs/07-pointers/02-double-pointers.md)
-- [Pointer to Functions](./docs/07-pointers/03-pointer-to-functions.md)
-- [Pointer to Array of Structures](./docs/07-pointers/04-pointer-to-array-of-structures.md)
+- [Pointer Basics](./docs/07-pointers/01-pointer-basics.md) - Comprehensive pointer guide
 
 ### 8. [Storage Classes](./docs/08-storage-classes/)
-- [Storage Class Overview](./docs/08-storage-classes/01-storage-class-overview.md)
-- [Variable Scope](./docs/08-storage-classes/02-variable-scope.md)
+- [Variable Scope](./docs/08-storage-classes/02-variable-scope.md) - Storage classes and scope
 
 ### 9. [File I/O](./docs/09-file-io/)
-- [File Handling](./docs/09-file-io/01-file-handling.md)
+- [File Handling](./docs/09-file-io/01-file-handling.md) - Complete file operations guide
 
 ### 10. [Examples](./docs/10-examples/)
-- [Code Examples](./docs/10-examples/)
+- [Code Examples Guide](./docs/10-examples/README.md) - Comprehensive examples index
 
 ### 11. [Interview Preparation](./interview-prep/)
 - [Comprehensive Interview Guide](./interview-prep/README.md) - Real interview questions and answers
@@ -68,28 +63,29 @@ This guide is organized to help you learn C programming from basics to advanced 
 
 ```
 c/
-├── docs/                    # Documentation
-│   ├── 01-basics/          # Basic concepts
-│   ├── 02-operators/       # Operators
-│   ├── 03-control-flow/    # Control structures
-│   ├── 04-arrays/          # Arrays
-│   ├── 05-strings/         # String handling
-│   ├── 06-structures/      # Structures
-│   ├── 07-pointers/        # Pointers
-│   ├── 08-storage-classes/ # Storage classes
-│   ├── 09-file-io/         # File operations
-│   └── 10-examples/        # Code examples
-├── interview-prep/          # Interview preparation
+├── docs/                    # Documentation (Comprehensive Guides)
+│   ├── 01-basics/          # Basic concepts (History, Data Types, Identifiers, Keywords, Header Files)
+│   ├── 02-operators/       # Operators (Logical, Bitwise, Ternary)
+│   ├── 03-control-flow/    # Control structures (Break, Continue)
+│   ├── 04-arrays/          # Arrays (Basics, Arrays as Pointers)
+│   ├── 05-strings/         # String handling (String Functions, Manipulation)
+│   ├── 06-structures/      # Structures (Structure Basics, Operations)
+│   ├── 07-pointers/        # Pointers (Pointer Basics, Operations)
+│   ├── 08-storage-classes/ # Storage classes (Variable Scope, Storage Classes)
+│   ├── 09-file-io/         # File operations (File Handling, I/O Operations)
+│   └── 10-examples/        # Code examples (Comprehensive Examples Guide)
+├── interview-prep/          # Interview preparation (Real Interview Questions)
 │   ├── basics/             # Basic concepts for interviews
 │   ├── operators/          # Operator questions
-│   ├── pointers/           # Pointer questions (most important)
+│   ├── pointers/           # Pointer questions and answers (Most Important)
 │   ├── arrays/             # Array questions
-│   ├── strings/            # String questions
+│   ├── strings/            # String manipulation questions
 │   ├── structures/         # Structure questions
 │   ├── memory/             # Memory management questions
 │   ├── algorithms/         # Algorithm questions
 │   ├── advanced/           # Advanced topics
-│   └── INTERVIEW_INDEX.md  # Interview study plan
+│   ├── practice-exercises/ # Practice exercises (Beginner, Intermediate, Advanced)
+│   └── INTERVIEW_INDEX.md  # Interview study plan and navigation
 ├── src/                     # Source code files
 └── README.md               # This file
 ```
