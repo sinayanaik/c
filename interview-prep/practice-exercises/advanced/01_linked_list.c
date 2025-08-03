@@ -1,5 +1,5 @@
 /*
- * Exercise: Linked List Implementation
+ * Exercise: Complete Linked List Implementation
  * 
  * Implement a complete linked list data structure with the following operations:
  * 

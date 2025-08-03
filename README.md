@@ -47,10 +47,14 @@ A comprehensive guide to C programming language covering fundamentals, advanced 
 ### 10. [Examples](./docs/10-examples/)
 - [Code Examples](./docs/10-examples/)
 
-### 11. [Practice](./practice/)
-- [Puzzles](./practice/puzzles/) - Brain teasers and logic puzzles
-- [Code Practice](./practice/code-practice/) - Programming exercises
-- [Solutions](./practice/solutions/) - Complete solutions
+### 11. [Interview Preparation](./interview-prep/)
+- [Comprehensive Interview Guide](./interview-prep/README.md) - Real interview questions and answers
+- [Pointer Basics](./interview-prep/pointers/01_pointer_basics.md) - Most important topic
+- [Memory Management](./interview-prep/memory/01_memory_basics.md) - Stack vs Heap, malloc/free
+- [String Manipulation](./interview-prep/strings/01_string_basics.md) - String functions implementation
+- [Sorting Algorithms](./interview-prep/algorithms/01_sorting_algorithms.md) - Complete algorithm implementations
+- [Practice Exercises](./interview-prep/practice-exercises/) - Coding exercises for all levels
+- [Interview Index](./interview-prep/INTERVIEW_INDEX.md) - Study plan and navigation
 
 ## 🚀 Getting Started
 
@@ -75,11 +79,17 @@ c/
 │   ├── 08-storage-classes/ # Storage classes
 │   ├── 09-file-io/         # File operations
 │   └── 10-examples/        # Code examples
-├── practice/                # Practice materials
-│   ├── puzzles/            # Brain teasers and logic puzzles
-│   ├── code-practice/      # Programming exercises
-│   ├── solutions/          # Complete solutions
-│   └── PRACTICE_INDEX.md   # Practice navigation
+├── interview-prep/          # Interview preparation
+│   ├── basics/             # Basic concepts for interviews
+│   ├── operators/          # Operator questions
+│   ├── pointers/           # Pointer questions (most important)
+│   ├── arrays/             # Array questions
+│   ├── strings/            # String questions
+│   ├── structures/         # Structure questions
+│   ├── memory/             # Memory management questions
+│   ├── algorithms/         # Algorithm questions
+│   ├── advanced/           # Advanced topics
+│   └── INTERVIEW_INDEX.md  # Interview study plan
 ├── src/                     # Source code files
 └── README.md               # This file
 ```
