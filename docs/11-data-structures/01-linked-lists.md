@@ -345,6 +345,15 @@ void freeList(LinkedList* list) {
 }
 ```
 
+### Output
+
+```
+List: 5 -> 10 -> 15 -> 20 -> 30 -> NULL
+Size: 5
+Found 20 in the list
+List: 10 -> 20 -> NULL
+```
+
 ## Doubly Linked List
 
 ### Structure Definition

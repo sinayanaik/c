@@ -42,6 +42,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Maximum: 20
+Maximum: 20
+```
+
 ### Character Classification
 
 ```c
@@ -57,6 +63,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Character 'A' is: L
 ```
 
 ## Common Use Cases
@@ -81,6 +92,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Maximum: 25
+Minimum: 10
+```
+
 ### 2. **Absolute Value**
 
 ```c
@@ -95,6 +112,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Absolute value of -42 is 42
 ```
 
 ### 3. **Even/Odd Check**
@@ -115,6 +137,20 @@ int main() {
 }
 ```
 
+**Output:**
+```
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+6 is even
+7 is odd
+8 is even
+9 is odd
+10 is even
+```
+
 ### 4. **Grade Classification**
 
 ```c
@@ -132,6 +168,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Score: 85, Grade: B
 ```
 
 ## Nested Ternary Operators
@@ -156,6 +197,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Status: E
+```
+
 ### String Classification
 
 ```c
@@ -175,6 +221,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+String 'Hello' is Medium
+```
+
 ## Type Conversion
 
 ### Mixed Types
@@ -192,6 +243,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Result: 10.00
 ```
 
 ### Pointer Types
@@ -215,6 +271,11 @@ int main() {
     free(ptr2);
     return 0;
 }
+```
+
+**Output:**
+```
+Value: 100
 ```
 
 ## Function Calls in Ternary
@@ -242,6 +303,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Negative: -5
+```
+
 ### Return Values
 
 ```c
@@ -263,6 +329,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Maximum: 20
+Minimum: 10
 ```
 
 ## Macro Definitions
@@ -288,6 +360,14 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+MAX(15, 25) = 25
+MIN(15, 25) = 15
+ABS(-42) = 42
+IS_EVEN(15) = No
 ```
 
 ## Best Practices

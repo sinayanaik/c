@@ -589,6 +589,17 @@ int evaluateExpression(char* expression) {
 }
 ```
 
+### Output
+
+```
+Expression: 10 + 2 * (6 - 3)
+Result: 16
+Expression: 100 * 2 + 12
+Result: 212
+Expression: 100 * ( 2 + 12 )
+Result: 1400
+```
+
 #### Balanced Parentheses
 
 ```c
@@ -617,6 +628,14 @@ bool isBalanced(char* expression) {
     
     return isEmpty(&stack);
 }
+```
+
+### Output
+
+```
+Expression: {[()]} -> Balanced
+Expression: {[(])} -> Not Balanced
+Expression: {{[[(())]]}} -> Balanced
 ```
 
 ### 2. **Queue Applications**
@@ -661,6 +680,12 @@ void BFS(Graph* graph, int startVertex) {
 }
 ```
 
+### Output
+
+```
+BFS traversal: 2 0 3 1 
+```
+
 #### Print Binary Tree Level by Level
 
 ```c
@@ -693,6 +718,13 @@ void printLevelOrder(TreeNode* root) {
     }
     printf("\n");
 }
+```
+
+### Output
+
+```
+Level Order traversal of binary tree is 
+1 2 3 4 5 
 ```
 
 ## Performance Analysis

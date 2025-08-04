@@ -34,6 +34,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+1 2 3 4 6 7 8 9 10 
+Loop completed
+```
+
 ### 2. **Continue in For Loop**
 
 ```c
@@ -50,6 +56,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+1 2 4 5 6 8 9 10 
+Loop completed
 ```
 
 ### 3. **Continue in Do-While Loop**
@@ -72,6 +84,12 @@ int main() {
     printf("\nLoop completed\n");
     return 0;
 }
+```
+
+**Output:**
+```
+1 3 5 7 9 
+Loop completed
 ```
 
 ## Common Use Cases
@@ -97,6 +115,15 @@ int main() {
     printf("Final sum: %d\n", sum);
     return 0;
 }
+```
+
+**Output:**
+```
+Added 1, sum = 1
+Added 3, sum = 4
+Added 8, sum = 12
+Added 10, sum = 22
+Final sum: 22
 ```
 
 ### 2. **Input Validation**

@@ -34,6 +34,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+1 2 3 4 
+Loop ended at i = 5
+```
+
 #### For Loop
 ```c
 #include <stdio.h>
@@ -49,6 +55,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+1 2 3 4 5 6 
+Loop ended
 ```
 
 #### Do-While Loop
@@ -69,6 +81,12 @@ int main() {
     printf("\nLoop ended at num = %d\n", num);
     return 0;
 }
+```
+
+**Output:**
+```
+1 2 3 4 5 
+Loop ended at num = 6
 ```
 
 ### 2. **Break in Switch Statements**
@@ -100,6 +118,12 @@ int main() {
     printf("Switch statement completed\n");
     return 0;
 }
+```
+
+**Output:**
+```
+Option 2 selected
+Switch statement completed
 ```
 
 ## Common Use Cases

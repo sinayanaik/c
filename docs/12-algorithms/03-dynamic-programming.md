@@ -503,6 +503,19 @@ int main() {
 }
 ```
 
+### Output
+
+```
+=== Dynamic Programming Examples ===
+
+1. Fibonacci (n=10): 55
+2. LCS of 'ABCDGH' and 'AEDFHR': 3
+3. LIS length: 5
+4. Edit distance between 'saturday' and 'sunday': 3
+5. Knapsack (W=5): 37
+6. Coin change for amount 11: 3 coins
+```
+
 ## Optimization Techniques
 
 ### 1. **Space Optimization**

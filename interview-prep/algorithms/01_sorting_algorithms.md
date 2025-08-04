@@ -63,6 +63,13 @@ int main() {
 }
 ```
 
+### Output
+
+```
+Original array: 64 34 25 12 22 11 90 
+Sorted array: 11 12 22 25 34 64 90 
+```
+
 ### Q2: Implement Selection Sort
 **Answer:**
 ```c
@@ -102,6 +109,13 @@ int main() {
 }
 ```
 
+### Output
+
+```
+Original array: 64 34 25 12 22 11 90 
+Sorted array: 11 12 22 25 34 64 90 
+```
+
 ### Q3: Implement Insertion Sort
 **Answer:**
 ```c
@@ -135,6 +149,13 @@ int main() {
     
     return 0;
 }
+```
+
+### Output
+
+```
+Original array: 64 34 25 12 22 11 90 
+Sorted array: 11 12 22 25 34 64 90 
 ```
 
 ### Q4: Implement Merge Sort
@@ -217,6 +238,13 @@ int main() {
 }
 ```
 
+### Output
+
+```
+Original array: 64 34 25 12 22 11 90 
+Sorted array: 11 12 22 25 34 64 90 
+```
+
 ### Q5: Implement Quick Sort
 **Answer:**
 ```c
@@ -266,6 +294,13 @@ int main() {
     
     return 0;
 }
+```
+
+### Output
+
+```
+Original array: 64 34 25 12 22 11 90 
+Sorted array: 11 12 22 25 34 64 90 
 ```
 
 ## 🎯 Advanced Questions
@@ -318,6 +353,13 @@ int main() {
 }
 ```
 
+### Output
+
+```
+Original: (3,0) (1,1) (3,2) (2,3) 
+Sorted: (1,1) (2,3) (3,0) (3,2) 
+```
+
 ### Q7: Implement counting sort for integers
 **Answer:**
 ```c
@@ -363,6 +405,13 @@ int main() {
     
     return 0;
 }
+```
+
+### Output
+
+```
+Original array: 4 2 1 4 1 4 2 1 
+Sorted array: 1 1 1 2 2 4 4 4 
 ```
 
 ## 🎯 Practice Questions

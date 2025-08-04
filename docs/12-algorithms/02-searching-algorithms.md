@@ -643,6 +643,20 @@ int main() {
 }
 ```
 
+### Output
+
+```
+Array: 2 3 4 10 40 50 60 70 80 90 
+Searching for: 10
+
+Linear Search: Found at index 3
+Binary Search: Found at index 3
+Jump Search: Found at index 3
+Interpolation Search: Found at index 3
+Exponential Search: Found at index 3
+Fibonacci Search: Found at index 3
+```
+
 ## Comparison of Searching Algorithms
 
 | Algorithm | Time Complexity | Space Complexity | Requirements |

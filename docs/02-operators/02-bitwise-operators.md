@@ -45,6 +45,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+5 & 3 = 1
+```
+
 ### 2. Bitwise OR (`|`)
 
 The `|` operator takes two numbers as operands and does OR on every bit of two numbers. The result of OR is **1 if any of the two bits is 1**.
@@ -69,6 +74,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+5 | 3 = 7
 ```
 
 ### 3. Bitwise XOR (`^`)
@@ -97,6 +107,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+5 ^ 3 = 6
+```
+
 ### 4. Left Shift (`<<`)
 
 The `<<` operator takes two numbers, left shifts the bits of the first operand, and the second operand decides the number of places to shift.
@@ -119,6 +134,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+5 << 1 = 10
+5 << 2 = 20
+5 << 3 = 40
 ```
 
 ### 5. Right Shift (`>>`)
@@ -145,6 +167,13 @@ int main() {
 }
 ```
 
+**Output:**
+```
+20 >> 1 = 10
+20 >> 2 = 5
+20 >> 3 = 2
+```
+
 ### 6. Bitwise NOT (`~`)
 
 The `~` operator takes one number and **inverts all bits** of it.
@@ -160,6 +189,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+~5 = -6
 ```
 
 ## Practical Examples
@@ -188,6 +222,13 @@ int main() {
 }
 ```
 
+**Output:**
+```
+After setting bit 2: 14
+After clearing bit 1: 8
+After toggling bit 0: 11
+```
+
 ### 2. Checking Bit Status
 
 ```c
@@ -214,6 +255,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Bit 1 is set
+Bit 2 is not set
+```
+
 ### 3. Counting Set Bits
 
 ```c
@@ -234,6 +281,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Number of set bits in 15: 4
 ```
 
 ### 4. Power of 2 Check
@@ -257,6 +309,18 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+1 is a power of 2
+2 is a power of 2
+4 is a power of 2
+8 is a power of 2
+16 is a power of 2
+3 is not a power of 2
+5 is not a power of 2
+7 is not a power of 2
 ```
 
 ## Common Use Cases

@@ -520,6 +520,20 @@ int main() {
 }
 ```
 
+### Output
+
+```
+Original array: 64 34 25 12 22 11 90 45 78 33 
+Bubble Sort: 11 12 22 25 33 34 45 64 78 90 
+Selection Sort: 11 12 22 25 33 34 45 64 78 90 
+Insertion Sort: 11 12 22 25 33 34 45 64 78 90 
+Merge Sort: 11 12 22 25 33 34 45 64 78 90 
+Quick Sort: 11 12 22 25 33 34 45 64 78 90 
+Heap Sort: 11 12 22 25 33 34 45 64 78 90 
+Counting Sort: 11 12 22 25 33 34 45 64 78 90 
+Radix Sort: 11 12 22 25 33 34 45 64 78 90 
+```
+
 ## Applications of Sorting
 
 1. **Database Management**: Indexing and query optimization

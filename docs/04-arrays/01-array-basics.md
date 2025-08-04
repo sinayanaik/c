@@ -45,6 +45,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Numbers array: 1 2 3 4 5 
+Scores array: 85 92 78 96 0 0 0 0 0 0 
+```
+
 ### 2. **Partial Initialization**
 
 ```c
@@ -59,6 +65,20 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+arr[0] = 1
+arr[1] = 2
+arr[2] = 3
+arr[3] = 0
+arr[4] = 0
+arr[5] = 0
+arr[6] = 0
+arr[7] = 0
+arr[8] = 0
+arr[9] = 0
 ```
 
 ### 3. **Designated Initializers (C99)**
@@ -79,6 +99,20 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+arr[0] = 1
+arr[1] = 0
+arr[2] = 0
+arr[3] = 0
+arr[4] = 0
+arr[5] = 25
+arr[6] = 0
+arr[7] = 0
+arr[8] = 0
+arr[9] = 100
 ```
 
 ## Accessing Array Elements
@@ -107,6 +141,14 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+First element: 10
+Third element: 30
+Last element: 50
+Modified array: 10 25 30 45 50
 ```
 
 ## Array Operations

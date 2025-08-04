@@ -44,6 +44,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Both conditions are true
+```
+
 ### 2. Logical OR (`||`)
 
 Returns `true` if **at least one** operand is `true`.
@@ -74,6 +79,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+At least one condition is true
+This will execute
+```
+
 ### 3. Logical NOT (`!`)
 
 Returns the **opposite** of the operand's truth value.
@@ -100,6 +111,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+a is NOT greater than 10
 ```
 
 ## Short-Circuit Evaluation
@@ -132,6 +148,13 @@ int main() {
 }
 ```
 
+**Output:**
+```
+b = 5
+This will execute
+b = 5
+```
+
 ## Complex Logical Expressions
 
 You can combine multiple logical operators to create complex conditions:
@@ -154,6 +177,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Eligible for loan
 ```
 
 ## Operator Precedence
@@ -180,6 +208,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Result: 1
+Result2: 1
 ```
 
 ## Common Use Cases

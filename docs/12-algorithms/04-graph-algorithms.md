@@ -802,6 +802,43 @@ int main() {
 }
 ```
 
+### Output
+
+```
+=== Graph Algorithms Examples ===
+
+Graph:
+Adjacency Matrix:
+    0  1  2  3  4 
+ 0  0  2  4  ∞  ∞ 
+ 1  2  0  1  7  ∞ 
+ 2  4  1  0  3  5 
+ 3  ∞  7  3  0  1 
+ 4  ∞  ∞  5  1  0 
+
+DFS starting from vertex 0: 0 1 2 3 4 
+BFS starting from vertex 0: 0 1 2 3 4 
+
+=== Shortest Path Algorithms ===
+Shortest distances from vertex 0:
+Vertex 0: 0
+Vertex 1: 2
+Vertex 2: 3
+Vertex 3: 6
+Vertex 4: 7
+
+=== Minimum Spanning Tree ===
+Minimum Spanning Tree:
+0 - 1: 2
+1 - 2: 1
+2 - 3: 3
+3 - 4: 1
+
+=== Connectivity ===
+Connected Components:
+Component 0: 0 1 2 3 4 
+```
+
 ## Applications of Graph Algorithms
 
 1. **Social Networks**: Friend suggestions, community detection
