@@ -33,6 +33,14 @@ int main() {
 }
 ```
 
+**Output:**
+```
+str1: Hello
+str2: Hello
+str3: Hello
+str4: Hello
+```
+
 ### String Length
 
 ```c
@@ -55,6 +63,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Length using strlen: 11
+Length manually: 11
 ```
 
 ## String Library Functions
@@ -83,6 +97,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Copied string: Hello World
+Safe copy: Hell
+```
+
 ### 2. **strcat() - String Concatenation**
 
 ```c
@@ -105,6 +125,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Concatenated: Hello World
+Safe concatenation: Hello Wo
 ```
 
 ### 3. **strcmp() - String Comparison**
@@ -131,6 +157,13 @@ int main() {
 }
 ```
 
+**Output:**
+```
+str1 vs str2: 0
+str1 vs str3: -1
+str3 vs str1: 1
+```
+
 ### 4. **strchr() - Find Character in String**
 
 ```c
@@ -154,6 +187,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Character 'o' found at position: 4
+```
+
 ### 5. **strstr() - Find Substring**
 
 ```c
@@ -175,6 +213,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Substring 'World' found at position: 6
 ```
 
 ## String Manipulation
@@ -212,6 +255,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Original: Hello
+Reversed: olleH
+```
+
 ### 2. **String to Uppercase/Lowercase**
 
 ```c
@@ -243,6 +292,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Original: Hello World
+Uppercase: HELLO WORLD
+Lowercase: hello world
 ```
 
 ### 3. **Count Characters**
@@ -282,6 +338,14 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Vowels: 3
+Consonants: 7
+Digits: 3
+Spaces: 2
+```
+
 ## String Tokenization
 
 ### Using strtok()
@@ -305,6 +369,14 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Token: apple
+Token: banana
+Token: cherry
+Token: date
 ```
 
 ### Manual Tokenization
@@ -384,6 +456,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+'A man a plan a canal Panama' is a palindrome
+```
+
 ### 2. **Anagram Check**
 
 ```c
@@ -428,6 +505,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+'listen' and 'silent' are anagrams
+```
+
 ## String Formatting
 
 ### Using sprintf()
@@ -453,6 +535,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Formatted: Number: 42, String: Hello
+Pi: Pi: 3.14
+```
+
 ### Using snprintf()
 
 ```c
@@ -471,6 +559,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Buffer: 'This is a'
+Characters written: 26
+Buffer size: 10
 ```
 
 ## Common String Patterns

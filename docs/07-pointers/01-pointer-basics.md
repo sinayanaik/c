@@ -24,6 +24,14 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Value of number: 42
+Address of number: 0x7ffe81ba94dc
+Value of pointer: 0x7ffe81ba94dc
+Value pointed by pointer: 42
+```
+
 ### Pointer Declaration
 
 ```c
@@ -46,6 +54,14 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+number = 100
+&number = 0x7fff012227cc
+ptr = 0x7fff012227cc
+*ptr = 100
 ```
 
 ## Pointer Operators
@@ -77,6 +93,16 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Address of x: 0x7fffd02ba0a8
+Address of y: 0x7fffd02ba0ac
+Address of ch: 0x7fffd02ba0a7
+ptr_x = 0x7fffd02ba0a8
+ptr_y = 0x7fffd02ba0ac
+ptr_ch = 0x7fffd02ba0a7
+```
+
 ### 2. **Dereference Operator (*)**
 
 ```c
@@ -97,6 +123,15 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+number = 25
+*ptr = 25
+After *ptr = 50:
+number = 50
+*ptr = 50
 ```
 
 ## Pointer Arithmetic
@@ -122,6 +157,23 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Array elements using pointer arithmetic:
+*(ptr + 0) = 10
+*(ptr + 1) = 20
+*(ptr + 2) = 30
+*(ptr + 3) = 40
+*(ptr + 4) = 50
+
+Array elements using array notation:
+ptr[0] = 10
+ptr[1] = 20
+ptr[2] = 30
+ptr[3] = 40
+ptr[4] = 50
 ```
 
 ### Pointer Increment/Decrement
@@ -155,6 +207,14 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Using pointer increment:
+1 2 3 4 5 
+Using pointer decrement (reverse):
+5 4 3 2 1 
+```
+
 ## Pointers and Arrays
 
 ### Array-Pointer Relationship
@@ -177,6 +237,19 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Array name as pointer:
+arr = 0x7ffce5a22de0
+&arr[0] = 0x7ffce5a22de0
+arr == &arr[0]: True
+
+Accessing elements:
+arr[2] = 30
+*(arr + 2) = 30
+*(&arr[0] + 2) = 30
 ```
 
 ### Passing Arrays to Functions
@@ -215,6 +288,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Original array: 1 2 3 4 5 
+Modified array: 2 4 6 8 10 
+```
+
 ## Null Pointers
 
 ### Understanding Null Pointers
@@ -243,6 +322,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+ptr = (nil)
+Pointer is null
+Cannot dereference null pointer
 ```
 
 ### Common Null Pointer Usage
@@ -324,6 +410,13 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Integer: 42
+Float: 3.140000
+Char: A
+```
+
 ### Memory Operations with Void Pointers
 
 ```c
@@ -381,6 +474,22 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+value = 100
+*ptr1 = 100
+**ptr2 = 100
+
+Addresses:
+&value = 0x7ffd993df114
+ptr1 = 0x7ffd993df114
+&ptr1 = 0x7ffd993df118
+ptr2 = 0x7ffd993df118
+
+After **ptr2 = 200:
+value = 200
 ```
 
 ### Dynamic Allocation with Double Pointers
@@ -492,6 +601,14 @@ int main() {
 }
 ```
 
+**Output:**
+```
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+```
+
 ### Array of Function Pointers
 
 ```c
@@ -539,6 +656,12 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Before swap: x = 10, y = 20
+After swap: x = 20, y = 10
 ```
 
 ### 2. **Returning Multiple Values**

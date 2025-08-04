@@ -46,6 +46,13 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Student ID: 1001
+Student Name: John Doe
+Student GPA: 3.80
+```
+
 ## Structure Initialization
 
 ### 1. **Declaration with Initialization**
@@ -74,6 +81,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+p1: (10, 20)
+p2: (30, 40)
+p3: (50, 0)
 ```
 
 ### 2. **Array of Structures**
@@ -105,6 +119,27 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Book 1:
+  Title: The C Programming Language
+  Author: Kernighan & Ritchie
+  Year: 1978
+  Price: $29.99
+
+Book 2:
+  Title: C Programming: A Modern Approach
+  Author: K.N. King
+  Year: 1996
+  Price: $45.50
+
+Book 3:
+  Title: Expert C Programming
+  Author: Peter van der Linden
+  Year: 1994
+  Price: $39.99
 ```
 
 ## Structure Members
@@ -184,6 +219,12 @@ int main() {
 }
 ```
 
+**Output:**
+```
+Person 1: John, 25 years, 175.5 cm
+Person 2: Jane, 30 years, 175.5 cm
+```
+
 ### 2. **Comparing Structures**
 
 ```c
@@ -221,6 +262,11 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Rectangle 2 is larger
 ```
 
 ## Nested Structures
@@ -317,6 +363,11 @@ int main() {
 }
 ```
 
+**Output:**
+```
+1 -> 2 -> 3 -> NULL
+```
+
 ## Structure Pointers
 
 ### Pointer to Structure
@@ -347,6 +398,14 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Circle center: (10, 20)
+Circle radius: 5.5
+Modified circle center: (15, 25)
+Modified circle radius: 6.0
 ```
 
 ### Dynamic Structure Allocation
@@ -385,6 +444,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Product: Laptop
+Price: $999.99
+Quantity: 10
 ```
 
 ## Structure as Function Parameters
@@ -505,6 +571,13 @@ int main() {
     
     return 0;
 }
+```
+
+**Output:**
+```
+Time 1: 02:30:45
+Time 2: 01:15:20
+Sum: 03:46:05
 ```
 
 ## Structure Arrays and Sorting
